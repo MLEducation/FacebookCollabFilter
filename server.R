@@ -42,9 +42,9 @@ css <- "
 
 
 options(mongodb = list(
-  "host" = "yimdata-t0gd6.mongodb.net",
-  "username" = "Yim",
-  "password" = "yimregister"
+  "host" = "",
+  "username" = "",
+  "password" = ""
 )
 )
 
