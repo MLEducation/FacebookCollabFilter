@@ -843,30 +843,30 @@ output$similarimage2 <- renderUI({
 # the choosing which pair they think is the most similar, needs to be populated with the names and correct answer
 
 demographics <- function(...) {
-  renderUI({ source("demographics.R", local = TRUE)$value })
+  renderUI({ source("survey/demographics.R", local = TRUE)$value })
 }
 
 demopart2 <- function(...) {
-  renderUI({ source("demopart2.R", local = TRUE)$value })
+  renderUI({ source("survey/demopart2.R", local = TRUE)$value })
 }
 
 marginalized <- function(...) {
-  renderUI({ source("marginalized.R", local = TRUE)$value })
+  renderUI({ source("survey/marginalized.R", local = TRUE)$value })
 }
 question_one <- function(...) {
-  renderUI({ source("question1.R", local = TRUE)$value })
+  renderUI({ source("survey/question1.R", local = TRUE)$value })
 }
 
 question_two <- function(...) {
-  renderUI({ source("question2.R", local = TRUE)$value })
+  renderUI({ source("survey/question2.R", local = TRUE)$value })
 }
 
 question_three <- function(...) {
-  renderUI({ source("question3.R", local = TRUE)$value })
+  renderUI({ source("survey/question3.R", local = TRUE)$value })
 }
 
 thanks <- function(...) {
-  renderUI({ source("thanks.R", local = TRUE)$value })
+  renderUI({ source("survey/thanks.R", local = TRUE)$value })
 }
 
 
@@ -993,23 +993,23 @@ presurvey <- function(...) {
   })
   
 postquestion_one <- function(...) {
-    renderUI({ source("postquestion1.R", local = TRUE)$value })
+    renderUI({ source("survey/postquestion1.R", local = TRUE)$value })
 }
 
 postquestion_two <- function(...) {
-  renderUI({ source("postquestion2.R", local = TRUE)$value })
+  renderUI({ source("survey/postquestion2.R", local = TRUE)$value })
 }
 
 postquestion_three <- function(...) {
-  renderUI({ source("postquestion3.R", local = TRUE)$value })
+  renderUI({ source("survey/postquestion3.R", local = TRUE)$value })
 }
 
 postquestion_four <- function(...) {
-  renderUI({ source("postquestion4.R", local = TRUE)$value })
+  renderUI({ source("survey/postquestion4.R", local = TRUE)$value })
 }
 
 postquestion_five <- function(...) {
-  renderUI({ source("postquestion5.R", local = TRUE)$value }) #thanks and goodbye
+  renderUI({ source("survey/postquestion5.R", local = TRUE)$value }) #thanks and goodbye
 }
 
 
