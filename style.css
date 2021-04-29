@@ -1,0 +1,15 @@
+p {
+ font-size:14pt;
+ font-weight: bold;
+ 
+ 
+}
+
+.cover {
+  width:100px;
+  height:100px;
+  overflow: hidden;
+  text-align:center;
+  
+  
+}

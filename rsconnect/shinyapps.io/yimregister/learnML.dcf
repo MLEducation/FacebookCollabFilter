@@ -1,0 +1,13 @@
+name: learnML
+title: learnML
+username:
+account: yimregister
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2530845
+bundleId: 3345579
+url: https://yimregister.shinyapps.io/learnML/
+when: 1593726577.73192
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: criticalracehci.png|fblogo.PNG|friends_and_interests.PNG|friends_closeup.PNG|googlelogo.PNG|instalogo.PNG|pinterestlogo.PNG|redditlogo.PNG|server_control.R|snapchatlogo.PNG|Sunbelt 2019 R Network Visualization Workshop.pdf|Sunbelt 2019 R Network Visualization Workshop.R|test.png|twitterlogo.PNG|youtubelogo.PNG|Datafiles
